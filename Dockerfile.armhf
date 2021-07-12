@@ -12,6 +12,7 @@ ENV PAPERLESS_CONSUMPTION_DIR=/data/consume
 
 ARG BUILD_PACKAGES="\
   build-essential \
+  gfortran \
   jq \
   libatlas-base-dev \
   libffi-dev \
