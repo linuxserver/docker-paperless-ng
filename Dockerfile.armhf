@@ -21,7 +21,7 @@ ARG BUILD_PACKAGES="\
   libqpdf-dev \
   libxml2-dev \
   libxslt-dev \
-  openssl-dev \
+  libssl-dev \
   python3-dev \
   python3-pip \
   rustc"
