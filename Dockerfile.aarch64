@@ -80,6 +80,7 @@ RUN \
     $BUILD_PACKAGES && \
   rm -rf \
     /root/.cache \
+    /root/.cargo \
     /tmp/* && \
   apt-get clean -y
 
