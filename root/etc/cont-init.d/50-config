@@ -8,10 +8,10 @@ if [[ -v "$REDIS_URL" ]]; then
 fi
 
 mkdir -p \
-	/data/data \
-	/data/media \
-	/data/consume \
-	/data/export
+    /data/data \
+    /data/media \
+    /data/consume \
+    /data/export
 
 ln -fs /data/data /app/paperless/data
 ln -fs /data/media /app/paperless/media
@@ -25,12 +25,12 @@ cd /app/paperless || exit
 
 # permissions
 chown -R abc:abc \
-	/app/paperless \
-	/config \
-	/data
+    /app/paperless \
+    /config \
+    /data
 
 exec \
-	s6-setuidgid abc /usr/bin/python3 ./src/manage.py migrate
+    s6-setuidgid abc /usr/bin/python3 ./src/manage.py migrate
 
 cat << EOF | s6-setuidgid abc python3 /app/paperless/src/manage.py shell
 from django.contrib.auth import get_user_model

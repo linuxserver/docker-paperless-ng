@@ -3,4 +3,4 @@
 mkdir -p /redis
 
 exec \
-	s6-setuidgid abc /usr/bin/redis-server /defaults/redis.conf
+    s6-setuidgid abc /usr/bin/redis-server /defaults/redis.conf
