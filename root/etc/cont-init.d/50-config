@@ -29,12 +29,7 @@ chown -R abc:abc \
     /config \
     /data
 
-<<<<<<< Updated upstream
-exec \
-    s6-setuidgid abc /usr/bin/python3 ./src/manage.py migrate
-=======
 s6-setuidgid abc /usr/bin/python3 ./src/manage.py migrate
->>>>>>> Stashed changes
 
 cat << EOF | s6-setuidgid abc python3 /app/paperless/src/manage.py shell
 from django.contrib.auth import get_user_model
