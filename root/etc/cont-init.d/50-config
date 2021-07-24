@@ -8,15 +8,10 @@ if [[ -v "$REDIS_URL" ]]; then
 fi
 
 mkdir -p \
-    /data/data \
+    /config \
+    /data \
     /data/media \
-    /data/consume \
-    /data/export
-
-ln -fs /data/data /app/paperless/data
-ln -fs /data/media /app/paperless/media
-ln -fs /data/export /app/paperless/export
-ln -fs /data/consume /app/paperless/consume
+    /data/consume
 
 mv /defaults/uwsgi.ini /app/paperless/src/uwsgi.ini > /dev/null 2>&1
 cp /defaults/imagemagick-policy.xml /etc/ImageMagick-6/policy.xml

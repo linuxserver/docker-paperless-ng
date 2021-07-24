@@ -43,5 +43,6 @@ app_setup_block: |
   More info at [paperless-ng]({{ project_url }}).
 # changelog
 changelogs:
+  - { date: "10.07.24:", desc: "Fixed directory config files (sqlite db) is all stored." }
   - { date: "10.07.23:", desc: "Fixed initial user creation." }
   - { date: "10.07.21:", desc: "Initial Release." }

@@ -226,5 +226,6 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **10.07.24:** - Fixed directory config files (sqlite db) is all stored.
 * **10.07.23:** - Fixed initial user creation.
 * **10.07.21:** - Initial Release.
