@@ -8,7 +8,7 @@ bsdutils1:2.34-0.1ubuntu9.1
 bzip21.0.8-2
 ca-certificates20210119~20.04.1
 coreutils8.30-3ubuntu2
-curl7.68.0-1ubuntu2.5
+curl7.68.0-1ubuntu2.6
 dash0.5.10.2-6
 debconf1.5.73
 debianutils4.9.1
@@ -79,7 +79,7 @@ libcom-err21.45.5-2ubuntu1
 libcroco30.6.13-1
 libcrypt11:4.4.10-10ubuntu4
 libcups22.3.1-9ubuntu1.1
-libcurl47.68.0-1ubuntu2.5
+libcurl47.68.0-1ubuntu2.6
 libdatrie10.2.12-3
 libdb5.35.3.28+dfsg1-0.6ubuntu2
 libdbus-1-31.12.16-2ubuntu2.1
@@ -99,7 +99,7 @@ libgcrypt201.8.5-5ubuntu1
 libgdk-pixbuf2.0-02.40.0+dfsg-3ubuntu0.2
 libgdk-pixbuf2.0-common2.40.0+dfsg-3ubuntu0.2
 libgif75.1.9-1
-libglib2.0-02.64.6-1~ubuntu20.04.3
+libglib2.0-02.64.6-1~ubuntu20.04.4
 libgme00.6.2-1build1
 libgmp102:6.2.0+dfsg-4
 libgnutls303.6.13-2ubuntu1.3
