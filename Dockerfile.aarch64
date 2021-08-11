@@ -7,7 +7,8 @@ ARG PAPERLESS_RELEASE
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="alex-phillips"
 
-ENV PAPERLESS_EXPORT_DIR=/data/export
+ENV PAPERLESS_DATA_DIR=/config
+ENV PAPERLESS_MEDIA_ROOT=/data/media
 ENV PAPERLESS_CONSUMPTION_DIR=/data/consume
 
 ARG BUILD_PACKAGES="\
