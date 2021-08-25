@@ -70,7 +70,7 @@ RUN \
     /app/paperless/ --strip-components=1 && \
   echo "**** install pip packages ****" && \
   cd /app/paperless && \
-  pip3 install setuptools && \
+  pip3 install -U pip setuptools && \
   pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/ubuntu/ -r requirements.txt && \
   echo "**** cleanup ****" && \
   apt-get purge -y --auto-remove \
