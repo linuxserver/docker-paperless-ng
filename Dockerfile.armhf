@@ -7,7 +7,8 @@ ARG PAPERLESS_RELEASE
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="alex-phillips"
 
-ENV PAPERLESS_EXPORT_DIR=/data/export
+ENV PAPERLESS_DATA_DIR=/config
+ENV PAPERLESS_MEDIA_ROOT=/data/media
 ENV PAPERLESS_CONSUMPTION_DIR=/data/consume
 
 ARG BUILD_PACKAGES="\
@@ -62,6 +63,18 @@ RUN \
   apt-get install -y \
     --no-install-recommends \
     $RUNTIME_PACKAGES && \
+  echo "**** install qpdf ****" && \
+  mkdir -p /tmp/qpdf && \
+  curl -o \
+    /tmp/qpdf.tar.gz -L \
+    "https://github.com/qpdf/qpdf/releases/download/release-qpdf-10.3.2/qpdf-10.3.2.tar.gz" && \
+  tar xf \
+    /tmp/qpdf.tar.gz -C \
+    /tmp/qpdf --strip-components=1 && \
+  cd /tmp/qpdf && \
+  ./configure && \
+  make && \
+  make install && \
   echo "**** install paperless ****" && \
   mkdir -p /app/paperless && \
   if [ -z ${PAPERLESS_RELEASE+x} ]; then \
@@ -76,7 +89,7 @@ RUN \
     /app/paperless/ --strip-components=1 && \
   echo "**** install pip packages ****" && \
   cd /app/paperless && \
-  pip3 install setuptools && \
+  pip3 install -U pip setuptools && \
   pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/ubuntu/ -r requirements.txt && \
   echo "**** cleanup ****" && \
   apt-get purge -y --auto-remove \
