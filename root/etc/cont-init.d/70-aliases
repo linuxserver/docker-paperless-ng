@@ -4,7 +4,7 @@
 
 ## set alias for manage.py
 [[ ! -f /usr/local/bin/manage ]] && \
-  echo -e '#!/bin/bash\n/usr/bin/python3 /app/paperless/src/manage.py' > /usr/local/bin/manage
+  echo -e '#!/bin/bash\n/usr/bin/python3 /app/paperless/src/manage.py $*' > /usr/local/bin/manage
 
 [[ ! -x /usr/local/bin/manage ]] && \
   chmod +x /usr/local/bin/manage
