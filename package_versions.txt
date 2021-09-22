@@ -8,7 +8,7 @@ bsdutils1:2.34-0.1ubuntu9.1
 bzip21.0.8-2
 ca-certificates20210119~20.04.1
 coreutils8.30-3ubuntu2
-curl7.68.0-1ubuntu2.6
+curl7.68.0-1ubuntu2.7
 dash0.5.10.2-6
 debconf1.5.73
 debianutils4.9.1
@@ -79,7 +79,7 @@ libcom-err21.45.5-2ubuntu1
 libcroco30.6.13-1
 libcrypt11:4.4.10-10ubuntu4
 libcups22.3.1-9ubuntu1.1
-libcurl47.68.0-1ubuntu2.6
+libcurl47.68.0-1ubuntu2.7
 libdatrie10.2.12-3
 libdb5.35.3.28+dfsg1-0.6ubuntu2
 libdbus-1-31.12.16-2ubuntu2.1
@@ -95,7 +95,7 @@ libfontconfig12.13.1-2ubuntu3
 libfreetype62.10.1-2ubuntu0.1
 libfribidi01.0.8-2
 libgcc-s110.3.0-1ubuntu1~20.04
-libgcrypt201.8.5-5ubuntu1
+libgcrypt201.8.5-5ubuntu1.1
 libgdk-pixbuf2.0-02.40.0+dfsg-3ubuntu0.2
 libgdk-pixbuf2.0-common2.40.0+dfsg-3ubuntu0.2
 libgif75.1.9-1
@@ -216,16 +216,16 @@ libssh-gcrypt-40.9.3-2ubuntu2.2
 libssl1.11.1.1f-1ubuntu2.8
 libstdc++610.3.0-1ubuntu1~20.04
 libswresample37:4.2.4-1ubuntu0.1
-libsystemd0245.4-4ubuntu3.11
+libsystemd0245.4-4ubuntu3.13
 libtasn1-64.16.0-2
 libtesseract44.1.1-2build2
 libthai00.1.28-3
 libthai-data0.1.28-3
 libtheora01.1.1+dfsg.1-15ubuntu2
-libtiff54.1.0+git191117-2ubuntu0.20.04.1
+libtiff54.1.0+git191117-2ubuntu0.20.04.2
 libtinfo66.2-0ubuntu2
 libtwolame00.4.0-2
-libudev1245.4-4ubuntu3.11
+libudev1245.4-4ubuntu3.13
 libunistring20.9.10-2
 libuuid12.34-0.1ubuntu9.1
 libva22.7.0-2
