@@ -63,7 +63,7 @@ RUN \
   git clone https://github.com/agl/jbig2enc /tmp/jbig2enc && \
   cd /tmp/jbig2enc && \
   ./autogen.sh && \
-  ./configure &&
+  ./configure && \
   make && \
   cp /tmp/jbig2enc/src/.libs/libjbig2enc* /usr/local/lib/ && \
   cp /tmp/jbig2enc/src/jbig2 /usr/local/bin/ && \
