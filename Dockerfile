@@ -25,6 +25,7 @@ ARG RUNTIME_PACKAGES="\
   gettext \
   ghostscript \
   gnupg \
+  gunicorn \
   icc-profiles-free \
   imagemagick \
   liblept5 \
@@ -42,11 +43,9 @@ ARG RUNTIME_PACKAGES="\
   tesseract-ocr-eng \
   tzdata \
   unpaper \
-  uwsgi \
-  uwsgi-plugin-python3 \
   zlib1g"
 
-RUN \
+run \
   apt-get update && \
   echo "**** install build packages ****" && \
   apt-get install -y \
