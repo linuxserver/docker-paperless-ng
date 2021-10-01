@@ -12,6 +12,7 @@ ENV PAPERLESS_MEDIA_ROOT=/data/media
 ENV PAPERLESS_CONSUMPTION_DIR=/data/consume
 
 ARG BUILD_PACKAGES="\
+  autotools-dev \
   build-essential \
   git \
   jq \
