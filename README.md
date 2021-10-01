@@ -227,6 +227,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **01.10.21:** - Replaced uwsgi with gunicorn due to websocket issues.
 * **24.07.21:** - Fixed directory config files (sqlite db) is all stored.
 * **23.07.21:** - Fixed initial user creation.
 * **10.07.21:** - Initial Release.
