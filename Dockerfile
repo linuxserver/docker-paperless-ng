@@ -13,6 +13,7 @@ ENV PAPERLESS_CONSUMPTION_DIR=/data/consume
 
 ARG BUILD_PACKAGES="\
   build-essential \
+  git \
   jq \
   libatlas-base-dev \
   libleptonica-dev \

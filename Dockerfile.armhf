@@ -15,6 +15,7 @@ ARG BUILD_PACKAGES="\
   build-essential \
   cargo \
   gfortran \
+  git \
   jq \
   libatlas-base-dev \
   libleptonica-dev \
