@@ -12,13 +12,19 @@ ENV PAPERLESS_MEDIA_ROOT=/data/media
 ENV PAPERLESS_CONSUMPTION_DIR=/data/consume
 
 ARG BUILD_PACKAGES="\
+  automake \
+  autotools-dev \
   build-essential \
+  git \
   jq \
   libatlas-base-dev \
+  libleptonica-dev \
   libpq-dev \
   libqpdf-dev \
+  libtool \
   python3-dev \
-  python3-pip"
+  python3-pip \
+  zlib1g-dev"
 
 ARG RUNTIME_PACKAGES="\
   curl \
@@ -38,7 +44,6 @@ ARG RUNTIME_PACKAGES="\
   python3-setuptools \
   qpdf \
   redis \
-  sudo \
   tesseract-ocr \
   tesseract-ocr-eng \
   tzdata \
@@ -55,6 +60,15 @@ run \
   apt-get install -y \
     --no-install-recommends \
     $RUNTIME_PACKAGES && \
+  echo "**** install jbig2enc ****" && \
+  git clone https://github.com/agl/jbig2enc /tmp/jbig2enc && \
+  cd /tmp/jbig2enc && \
+  ./autogen.sh && \
+  ./configure && \
+  make && \
+  cp /tmp/jbig2enc/src/.libs/libjbig2enc* /usr/local/lib/ && \
+  cp /tmp/jbig2enc/src/jbig2 /usr/local/bin/ && \
+  cp /tmp/jbig2enc/src/*.h /usr/local/include/ && \
   echo "**** install paperless ****" && \
   mkdir -p /app/paperless && \
   if [ -z ${PAPERLESS_RELEASE+x} ]; then \
