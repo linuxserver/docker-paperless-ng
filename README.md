@@ -64,6 +64,10 @@ Default login is admin:admin via the webui, accessible at http://SERVERIP:PORT
 More info at [paperless-ng](https://github.com/jonaswinkler/paperless-ng).
 For convenience this container provides an alias to perform administration management commands. Available administration commands are documented upstream [here](https://paperless-ng.readthedocs.io/en/latest/administration.html) and can be accessed with this container thus: `docker exec -it <container_name> manage <command>`. For example, `docker exec -it paperless manage  document_retagger -tT`.
 
+### Creating your first user
+
+You can create your first user using `docker exec -it paperless-ng manage createsuperuser` and following the on screen instructions.
+
 ## Usage
 
 Here are some example snippets to help you get started creating a container.
