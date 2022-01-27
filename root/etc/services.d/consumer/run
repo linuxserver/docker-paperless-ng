@@ -1,5 +1,7 @@
 #!/usr/bin/with-contenv bash
 
+export PAPERLESS_REDIS=${REDIS_URL:-redis://localhost:6379}
+
 cd /app/paperless/src || exit
 
 # remove services unless they're enabled
@@ -10,4 +12,3 @@ fi
 
 exec \
     s6-setuidgid abc python3 manage.py document_consumer
-

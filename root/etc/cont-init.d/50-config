@@ -1,6 +1,6 @@
 #!/usr/bin/with-contenv bash
 
-PAPERLESS_REDIS=${REDIS_URL:-redis://localhost:6379}
+export PAPERLESS_REDIS=${REDIS_URL:-redis://localhost:6379}
 
 # remove services unless they're enabled
 if [[ ! -z "$REDIS_URL" ]]; then
