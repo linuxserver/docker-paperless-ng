@@ -44,6 +44,7 @@ app_setup_block: |
   For convenience this container provides an alias to perform administration management commands. Available administration commands are documented upstream [here](https://paperless-ng.readthedocs.io/en/latest/administration.html) and can be accessed with this container thus: `docker exec -it <container_name> manage <command>`. For example, `docker exec -it paperless manage  document_retagger -tT`.
 # changelog
 changelogs:
+  - { date: "27.01.22:", desc: "Fixed using external redis." }
   - { date: "30.11.21:", desc: "Added in jbig2enc." }
   - { date: "07.10.21:", desc: "Fixed variable that determins if we should run redis locally." }
   - { date: "01.10.21:", desc: "Replaced uwsgi with gunicorn due to websocket issues." }
