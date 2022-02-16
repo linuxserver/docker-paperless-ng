@@ -4,7 +4,7 @@ apt-utils2.0.6
 base-files11ubuntu5.4
 base-passwd3.5.47
 bash5.0-6ubuntu1.1
-bsdutils1:2.34-0.1ubuntu9.1
+bsdutils1:2.34-0.1ubuntu9.3
 bzip21.0.8-2
 ca-certificates20210119~20.04.2
 coreutils8.30-3ubuntu2
@@ -16,7 +16,7 @@ diffutils1:3.7-3
 dirmngr2.2.19-3ubuntu2.1
 dpkg1.19.7ubuntu3
 e2fsprogs1.45.5-2ubuntu1
-fdisk2.34-0.1ubuntu9.1
+fdisk2.34-0.1ubuntu9.3
 file1:5.38-4
 findutils4.7.0-1ubuntu1
 fontconfig2.13.1-2ubuntu3
@@ -64,7 +64,7 @@ libavahi-common-data0.7-4ubuntu7.1
 libavcodec587:4.2.4-1ubuntu0.1
 libavformat587:4.2.4-1ubuntu0.1
 libavutil567:4.2.4-1ubuntu0.1
-libblkid12.34-0.1ubuntu9.1
+libblkid12.34-0.1ubuntu9.3
 libbluray21:1.2.0-1
 libbrotli11.0.7-6ubuntu0.1
 libbsd00.10.0-1
@@ -85,11 +85,11 @@ libdatrie10.2.12-3
 libdb5.35.3.28+dfsg1-0.6ubuntu2
 libdbus-1-31.12.16-2ubuntu2.1
 libdebconfclient00.251ubuntu1
-libdrm22.4.105-3~20.04.2
-libdrm-common2.4.105-3~20.04.2
+libdrm22.4.107-8ubuntu1~20.04.1
+libdrm-common2.4.107-8ubuntu1~20.04.1
 libexpat12.2.9-1build1
 libext2fs21.45.5-2ubuntu1
-libfdisk12.34-0.1ubuntu9.1
+libfdisk12.34-0.1ubuntu9.3
 libffi73.3-4
 libfftw3-double33.3.8-2ubuntu1
 libfontconfig12.13.1-2ubuntu3
@@ -149,7 +149,7 @@ libmagic-dev1:5.38-4
 libmagickcore-6.q16-68:6.9.10.23+dfsg-2.1ubuntu11.4
 libmagickwand-6.q16-68:6.9.10.23+dfsg-2.1ubuntu11.4
 libmagic-mgc1:5.38-4
-libmount12.34-0.1ubuntu9.1
+libmount12.34-0.1ubuntu9.3
 libmp3lame03.100-3
 libmpdec22.4.2-3
 libmpg123-01.25.13-1
@@ -201,10 +201,10 @@ libsemanage13.0-1build2
 libsemanage-common3.0-1build2
 libsepol13.0-1
 libshine33.1.1-2
-libsmartcols12.34-0.1ubuntu9.1
+libsmartcols12.34-0.1ubuntu9.3
 libsnappy1v51.1.8-1build1
 libsoxr00.1.3-2build1
-libspeex11.2~rc1.2-1.1ubuntu1
+libspeex11.2~rc1.2-1.1ubuntu1.20.04.1
 libsqlite3-03.31.1-4ubuntu0.2
 libss21.45.5-2ubuntu1
 libssh-40.9.3-2ubuntu2.2
@@ -223,7 +223,7 @@ libtinfo66.2-0ubuntu2
 libtwolame00.4.0-2
 libudev1245.4-4ubuntu3.15
 libunistring20.9.10-2
-libuuid12.34-0.1ubuntu9.1
+libuuid12.34-0.1ubuntu9.3
 libva22.7.0-2
 libva-drm22.7.0-2
 libva-x11-22.7.0-2
@@ -261,7 +261,7 @@ lua-bitop1.0.2-5
 lua-cjson2.1.0+dfsg-2.1
 mawk1.3.4.20200120-2
 mime-support3.64ubuntu1
-mount2.34-0.1ubuntu9.1
+mount2.34-0.1ubuntu9.3
 ncurses-base6.2-0ubuntu2
 ncurses-bin6.2-0ubuntu2
 ocl-icd-libopencl12.2.11-1ubuntu1
@@ -300,6 +300,6 @@ tzdata2021e-0ubuntu0.20.04
 ubuntu-keyring2020.02.11.4
 ucf3.0038+nmu1
 unpaper6.1-2build1
-util-linux2.34-0.1ubuntu9.1
+util-linux2.34-0.1ubuntu9.3
 xz-utils5.2.4-1ubuntu1
 zlib1g1:1.2.11.dfsg-2ubuntu1.2
