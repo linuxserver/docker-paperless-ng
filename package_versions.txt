@@ -51,7 +51,7 @@ krb5-locales1.17-6ubuntu4.1
 libacl12.2.53-6
 libaom01.0.0.errata1-3build1
 libapt-pkg6.02.0.6
-libarchive133.4.0-2ubuntu1
+libarchive133.4.0-2ubuntu1.1
 libasn1-8-heimdal7.7.0+dfsg-1ubuntu1
 libassuan02.5.3-7ubuntu2
 libatomic110.3.0-1ubuntu1~20.04
@@ -87,7 +87,7 @@ libdbus-1-31.12.16-2ubuntu2.1
 libdebconfclient00.251ubuntu1
 libdrm22.4.107-8ubuntu1~20.04.1
 libdrm-common2.4.107-8ubuntu1~20.04.1
-libexpat12.2.9-1build1
+libexpat12.2.9-1ubuntu0.2
 libext2fs21.45.5-2ubuntu1
 libfdisk12.34-0.1ubuntu9.3
 libffi73.3-4
