@@ -51,7 +51,7 @@ krb5-locales1.17-6ubuntu4.1
 libacl12.2.53-6
 libaom01.0.0.errata1-3build1
 libapt-pkg6.02.0.6
-libarchive133.4.0-2ubuntu1.1
+libarchive133.4.0-2ubuntu1.2
 libasn1-8-heimdal7.7.0+dfsg-1ubuntu1
 libassuan02.5.3-7ubuntu2
 libatomic110.3.0-1ubuntu1~20.04
@@ -94,7 +94,7 @@ libffi73.3-4
 libfftw3-double33.3.8-2ubuntu1
 libfontconfig12.13.1-2ubuntu3
 libfreetype62.10.1-2ubuntu0.1
-libfribidi01.0.8-2
+libfribidi01.0.8-2ubuntu0.1
 libgcc-s110.3.0-1ubuntu1~20.04
 libgcrypt201.8.5-5ubuntu1.1
 libgdk-pixbuf2.0-02.40.0+dfsg-3ubuntu0.2
