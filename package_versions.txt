@@ -159,7 +159,7 @@ libnettle73.5.1+really3.5.1-2ubuntu0.2
 libnghttp2-141.40.0-1build1
 libnpth01.6-1
 libnspr42:4.25-1
-libnss32:3.49.1-1ubuntu1.7
+libnss32:3.49.1-1ubuntu1.8
 libnuma12.0.12-1
 libogg01.3.4-0ubuntu1
 libopenjp2-72.3.1-1ubuntu4.20.04.1
@@ -209,7 +209,7 @@ libsqlite3-03.31.1-4ubuntu0.3
 libss21.45.5-2ubuntu1
 libssh-40.9.3-2ubuntu2.2
 libssh-gcrypt-40.9.3-2ubuntu2.2
-libssl1.11.1.1f-1ubuntu2.15
+libssl1.11.1.1f-1ubuntu2.16
 libstdc++610.3.0-1ubuntu1~20.04
 libswresample37:4.2.7-0ubuntu0.1
 libsystemd0245.4-4ubuntu3.15
@@ -265,7 +265,7 @@ mount2.34-0.1ubuntu9.3
 ncurses-base6.2-0ubuntu2
 ncurses-bin6.2-0ubuntu2
 ocl-icd-libopencl12.2.11-1ubuntu1
-openssl1.1.1f-1ubuntu2.15
+openssl1.1.1f-1ubuntu2.16
 optipng0.7.7-1
 passwd1:4.8.1-1ubuntu5.20.04.1
 perl-base5.30.0-9ubuntu0.2
