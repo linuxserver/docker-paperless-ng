@@ -6,8 +6,12 @@ project_url: "https://github.com/jonaswinkler/paperless-ng"
 project_logo: ""
 project_blurb: |
   [{{ project_name|capitalize }}]({{ project_url }}) is an application by Daniel Quinn and contributors that indexes your scanned documents and allows you to easily search for documents and store metadata alongside your documents."
-
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
+
+project_deprecation_status: true
+project_deprecation_message: |
+  We recommend switching to the new official container: 
+  https://github.com/paperless-ngx/paperless-ngx
 
 # supported architectures
 available_architectures:
@@ -44,6 +48,7 @@ app_setup_block: |
   For convenience this container provides an alias to perform administration management commands. Available administration commands are documented upstream [here](https://paperless-ng.readthedocs.io/en/latest/administration.html) and can be accessed with this container thus: `docker exec -it <container_name> manage <command>`. For example, `docker exec -it paperless manage  document_retagger -tT`.
 # changelog
 changelogs:
+  - { date: "05.09.22:", desc: "Deprecate." }
   - { date: "30.11.21:", desc: "Added in jbig2enc." }
   - { date: "07.10.21:", desc: "Fixed variable that determins if we should run redis locally." }
   - { date: "01.10.21:", desc: "Replaced uwsgi with gunicorn due to websocket issues." }
