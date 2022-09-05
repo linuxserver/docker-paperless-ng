@@ -27,6 +27,12 @@ Find us at:
 * [GitHub](https://github.com/linuxserver) - view the source for all of our repositories.
 * [Open Collective](https://opencollective.com/linuxserver) - please consider helping us by either donating or contributing to our budget
 
+# DEPRECATION NOTICE
+
+This image is deprecated. We will not offer support for this image and it will not be updated.
+We recommend switching to the new official container: 
+https://github.com/paperless-ngx/paperless-ngx
+
 # [linuxserver/paperless-ng](https://github.com/linuxserver/docker-paperless-ng)
 
 [![Scarf.io pulls](https://scarf.sh/installs-badge/linuxserver-ci/linuxserver%2Fpaperless-ng?color=94398d&label-color=555555&logo-color=ffffff&style=for-the-badge&package-type=docker)](https://scarf.sh/gateway/linuxserver-ci/docker/linuxserver%2Fpaperless-ng)
@@ -229,6 +235,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **05.09.22:** - Deprecate.
 * **30.11.21:** - Added in jbig2enc.
 * **07.10.21:** - Fixed variable that determins if we should run redis locally.
 * **01.10.21:** - Replaced uwsgi with gunicorn due to websocket issues.
